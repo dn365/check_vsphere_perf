@@ -12,7 +12,7 @@
 #      ARGV[2] => vsphere Login Pass
 #
 #  Author:
-#      Tsubasa Matsukawa(2012/12/19)
+#      ma2k8(2012/12/19)
 #
 ###################################################
 require 'rubygems'
