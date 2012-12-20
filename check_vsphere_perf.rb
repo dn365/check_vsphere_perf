@@ -16,7 +16,6 @@
 #
 ###################################################
 require 'rubygems'
-require 'trollop'
 require 'rbvmomi'
 require 'pp'
 
