@@ -25,7 +25,7 @@ def getPerfVal(type, vim, entity, value_list, mode)
 # => Options:
 #      type       => HostSystem or VMMachine
 #      vim        => VIM Instance
-#      entity     => ManagerObject
+#      entity     => ManagedObject
 #      value_list => GetPerfCounterList
 #      mode       => File Open Mode
 #
