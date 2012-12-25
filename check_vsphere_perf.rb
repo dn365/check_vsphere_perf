@@ -53,12 +53,13 @@ def getPerfVal(type, vim, entity, value_list, mode)
         elsif mode == "a"
             value_list.each do |x|
                 perf = perfmgr.retrieve_stats(entity, x)
-                perf[y][:metrics].each do |key, value|
-                     hfile.print "#{key}:", value, "\n"
+                if defined? perf[y][:metrics] then
+                    perf[y][:metrics].each do |key, value|
+                        hfile.print "#{key}:", value, "\n"
+                    end
                 end
             end
         end
-
     end
 end
 
